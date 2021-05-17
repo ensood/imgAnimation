@@ -11,7 +11,7 @@ class imageAnimation():
         image = cv2.imread(self.imgPath,cv2.IMREAD_COLOR)
         print("image path is set to: ", self.imgPath)
         return image
-
+#another coment
     def effect_draw_circular(self, image, canvas, outputFolderPath, frameCount=30,tellorance = 50, baseColor = (255,255,255)):
         rows, cols = image.shape[0], image.shape[1]
         canvas_noisy = canvas

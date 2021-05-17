@@ -16,4 +16,4 @@ canvas_noisy = numpy.random.randint(255,size = (rows,cols,3))
 canvas_noisy = numpy.float32(canvas_noisy)
 #canvas_noisy = anim.effect_draw_circular( img,canvas_noisy,  "./out/",100,80,(50,50,200))
 canvas_noisy = anim.effect_draw_liniear( img,canvas_noisy,  "./out/",90,80,(50,50,200))
-#anim.effect_transform( img,image_dst,  "./out/") 
+#anim.effect_transform( img,image_dst,  "./out/") #changed comment

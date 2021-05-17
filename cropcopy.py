@@ -27,5 +27,7 @@ canvas_copy = numpy.multiply(img,canvas_copy)
 M = cv2.getRotationMatrix2D(((cols-1)/2.0,(rows-1)/2.0),90,1)
 canvas_copy = cv2.warpAffine(canvas_copy,M,(cols,rows))
 canvas_copy = numpy.multiply(img,canvas_copy)
+canvas_copy = numpy.multiply(img,canvas_copy)
 #img = cv2.bitwise_or(img,img,canvas_copy)
 cv2.imwrite("./out.jpg",canvas_copy)
+#some comment
